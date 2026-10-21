@@ -5,7 +5,7 @@
         "url": "http://127.0.0.1:7077/api/answer",
         "method": "post",
         "contentType": "json",
-        "type": "fetch",
+        "type": "GM_xmlhttpRequest",
         "data": {
             "type": "${type}",
             "question": "${title}",
