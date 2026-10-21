@@ -1,7 +1,7 @@
 {
     "port": 7077,
     "host": "127.0.0.1",
-    "apiKey": "ak_2W69mC3e96U96BF4gm7L44TN3Rb1J",
+    "apiKey": "",
     "apiBase": "https://api.longcat.chat/openai/v1",
     "model": "LongCat-2.0",
     "systemPrompt": "你是一个答题助手。请根据题目内容，只给出答案，不要解释。如果是单选题，只返回选项字母或答案内容。如果是多选题，用 # 号分隔每个答案。如果是判断题，回答 正确 或 错误。如果是填空题，直接填写答案内容，多个空用 # 分隔。",

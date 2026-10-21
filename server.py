@@ -24,7 +24,7 @@ with open(CONFIG_PATH, "r", encoding="utf-8") as f:
 
 PORT = CONFIG.get("port", 7077)
 HOST = CONFIG.get("host", "127.0.0.1")
-API_KEY = CONFIG.get("apiKey", "ak_2W69mC3e96U96BF4gm7L44TN3Rb1J")
+API_KEY = CONFIG.get("apiKey", "sk-your-api-key-here")
 API_BASE = CONFIG.get("apiBase", "https://api.longcat.chat/openai/v1").rstrip("/")
 MODEL = CONFIG.get("model", "LongCat-2.0")
 SYSTEM_PROMPT = CONFIG.get("systemPrompt", "你是一个答题助手。请只给出答案，不要解释。")
